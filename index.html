@@ -7,26 +7,53 @@
     <title>About Me</title>
     <link rel="stylesheet" href="./myStyle.css">
     <script type="text/javascript" src="./myScript.js" charset="UTF-8"></script>
-    <h1>this is header 1</h1>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 </head>
 <body>
-    <h2>this is header 2</h2>
-    <p>this is a paragraph</p>
-    
-    <ul>
-        <li>this</li>
-        <li>is</li>
-        <li>an</li>
-        <li>unordered</li>
-        <li>list</li>
-    </ul>
-    <ol>
-        <li>vs</li>
-        <li>ordered</li>
-    </ol>
+    <div class="myIndex">
+        <a href="">Instructions</a>
+        <a href="">Introduction</a>
+        <a href="">Hobbies</a>
+        <a href="">Other fun facts</a>
+    </div>
 
-    <a href="https://google.com">a link to google</a>
-    <br>
+    <div class="myBody" id="myInstructions">
+        <h1>Instructions</h1>
+        <p></p>
+    </div>
+    
+    <div class="myBody" id="myIntroduction">
+        <h1>Introduction</h1>
+        <p>Hi I'm Jennica Wang and I'm in my first year studying computer science!</p>
+        <p>Birthday: 15 Februrary 2007</p>
+        <a href="">Instagram</a>
+        <a href="">LinkedIn</a>
+    </div>
+
+    <div class="myBody" id="myHobbies">
+        <h1>Hobbies</h1>
+        <ul>
+            <li>Crochet</li>
+            <li>Baking</li>
+            <li>Eating</li>
+            <li>Gaming but also basically exclusively mario kart (I have also dabbled in osu,
+                fall guys and some pokemon games so do with that what you will)</li>
+        </ul>
+    </div>
+
+    <div class="myBody" id="myFacts">
+        <h1>Other Fun Facts</h1>
+        <p>Because I'm so super cool here's some more fun facts about me!!</p>
+        <ul>
+            <li>760 day duolingo streak</li>
+            <li>Can solve a rubik's cube (but very slowly)</li>
+            <li>Convinced myself I was lactose intolerant for a full month</li>
+            <li>Received a library award in primary school without ever being to the library</li>
+            <li>Killed 6 kale plants in just one week</li>
+        </ul>
+    </div>
+
+    
     <img src="https://www.gardeners.com/globalassets/articles/gardening/2023content/8078-chive-flowers-edible.jpg">
     
     <table border = "1">
@@ -40,19 +67,6 @@
         </tr>
     </table>
     
-    <div id="first">
-        hello i am the first div
-        <script src="./myScript.js"></script>
-    </div>
-
-    <div class="box">
-        another box div area
-    </div>
-
-    <div>
-        another div area (not box)
-    </div>
-
     <form action="home.html" method="GET">
         <input type="text" name="name" placeholder="name">
         <button type="submit">Submit</button>
