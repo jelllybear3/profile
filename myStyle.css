@@ -1,29 +1,52 @@
-h1{
-    font-size:28px;
-    font-family:'Aclonica';
+h1 {
+    font-size: 28px;
+    font-family: 'Aclonica';
+    letter-spacing: 3px;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    color: white;
+    background-color: black;
+    letter-spacing: 0.5px;
+    margin: 0%;
 }
 
-ul{
+ul {
     line-height: 30px;
 }
 
-div{
-    padding:20px;
-}
-
-a{
+a {
     text-decoration: none;
+    color: rgb(130, 140, 155);
 }
 
-.myIndex{
-    background-color: lightgray;
-    font-size:20px;
+.myIndex {
+    background-color: rgb(50, 70, 75);
+    font-size: 17px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
     a{
-        padding:70px;
+        padding: 4%;
+        color: white;
+        font-weight: 600;
     }
 }
+
+.myBody {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    top: 35%;
+    
+}
+
+/* CENTRE TEXT */
